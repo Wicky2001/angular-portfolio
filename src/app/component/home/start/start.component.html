@@ -1,0 +1,23 @@
+<div class="start-container">
+  <div class="profile-picture-container">
+    <img
+      [src]="profilePictureUrl"
+      alt="profile picture"
+      class="profile-picture"
+    />
+  </div>
+
+  <div class="name-container">
+    <p>Pasindu</p>
+    <p>Wickramarathna</p>
+    <!--    <p class="sub-text">Innovation Enthusiast</p>-->
+    <div class="button-container">
+      <button type="button" class="btn btn-secondary" (click)="downloadFile()">
+        <i class="fa-solid fa-file"></i>Download CV
+      </button>
+      <button type="button" class="btn btn-success">
+        <i class="fa-brands fa-linkedin"></i>Linkedin
+      </button>
+    </div>
+  </div>
+</div>
