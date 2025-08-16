@@ -1,0 +1,16 @@
+<div
+  class="d-flex justify-content-center align-items-center flex-wrap gap-5 flex-column mt-5"
+>
+  <h2>Experience</h2>
+  <div class="d-flex justify-content-center align-items-center flex-wrap gap-5">
+    @for (work of workData; track $index) {
+      <app-feature-card
+        [title]="work.title"
+        [position]="work.position"
+        [type]="work.type"
+        [duration]="work.duration"
+        [description]="work.description"
+      ></app-feature-card>
+    }
+  </div>
+</div>

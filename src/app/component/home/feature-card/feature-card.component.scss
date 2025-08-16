@@ -1,0 +1,50 @@
+.card-body {
+  p {
+    margin-bottom: 10px;
+  }
+}
+
+.card {
+  width: 30rem;
+  height: 15rem;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly enlarge the div */
+  background-color: rgba(249, 246, 243, 0.2); /* Highlight with a new background color */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Add a shadow for emphasis */
+}
+
+@media (max-width: 1024px) {
+  .card {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 509px) {
+  .card {
+    width: 25rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .card {
+    height: 18rem;
+    width: 21rem;
+  }
+}
+
+.card-img-top {
+  height: 250px;
+}
+
+.card-text {
+  width: 50%;
+}
