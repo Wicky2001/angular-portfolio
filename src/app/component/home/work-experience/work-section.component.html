@@ -1,7 +1,11 @@
 <div
-  class="d-flex justify-content-center align-items-center flex-wrap gap-5 flex-column mt-5"
+  class="d-flex justify-content-center align-items-center flex-wrap gap-5 flex-column py-5"
 >
-  <h2>Experience</h2>
+  <h2>
+    Work Experience
+    <i class="fa-solid fa-gear" [ngClass]="{ 'rotating-icon': true }"></i>
+  </h2>
+
   <div class="d-flex justify-content-center align-items-center flex-wrap gap-5">
     @for (work of workData; track $index) {
       <app-feature-card

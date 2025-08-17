@@ -5,6 +5,7 @@ import { ThemeToggleSwitchComponent } from './component/theme-toggle-switch/them
 import { HomeComponent } from './component/home/home.component';
 import { FeatureCardComponent } from './component/home/feature-card/feature-card.component';
 import { WorkSectionComponent } from './component/home/work-experience/work-section.component';
+import { FooterComponent } from './component/footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,7 @@ import { WorkSectionComponent } from './component/home/work-experience/work-sect
     HomeComponent,
     FeatureCardComponent,
     WorkSectionComponent,
+    FooterComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

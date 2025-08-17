@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { FeatureCardComponent } from '../feature-card/feature-card.component';
 import WorkExperience from '../../../interfaces';
+import { NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-work-experience',
   standalone: true,
-  imports: [FeatureCardComponent],
+  imports: [FeatureCardComponent, NgClass],
   templateUrl: './work-section.component.html',
   styleUrl: './work-section.component.scss',
 })
